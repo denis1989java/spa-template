@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reading Rewards</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script   src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+    <script   src="https://code.jquery.com/jquery-migrate-3.0.1.js"   integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4="   crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="project-styles.css">
+    <script src="project-js.js"></script>
+</head>
+<body>
+<header class="clearfix">
+    <a href="home.html"><img title="IT Book Store" alt="IT Book Store" class="header-image" src="foto/header-image.png"></a>
+    <div class="div-input">
+        <input class="search-input" type="search" placeholder="Search 7+ Millions Books from IT sphere"/>
+        <button class="search-button">Search</button>
+        <a class="a-header" href="#"><i class="fa fa-shopping-cart"></i>Cart</a>
+        <a class="a-header" href="#"><i class="fa fa-heart"></i>Wish list</a>
+    </div>
+</header>
+<hr>
+<div class="slider-1">
+    <ul id="slider-header" class="slider-header">
+        <li class="slider-header-components">
+            <span class="components-span"><a>All Categories</a></span>
+            <div class="components-content">
+                <ul class="components-content-ul" type="none">
+                    <li><a class="components-content-ul-a">Biographies</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div biograpchi-image">
+                            <p class="components-content-ul-div-p">Biographies</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Arts & Literature</a></li>
+                                    <li><a>Cultural</a></li>
+                                    <li><a>Europen</a></li>
+                                    <li><a>Historical</a></li>
+                                    <li><a>Military</a></li>
+                                    <li><a>Modern</a></li>
+                                    <li><a>Sports</a></li>
+                                    <li><a>Women</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Business</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div business-image">
+                            <p class="components-content-ul-div-p">Business</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Careers</a></li>
+                                    <li><a>Economics</a></li>
+                                    <li><a>Finance</a></li>
+                                    <li><a>Indastries</a></li>
+                                    <li><a>International</a></li>
+                                    <li><a>Management</a></li>
+                                    <li><a>Marketing</a></li>
+                                    <li><a>Small Business</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Children's</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div chidrens-image">
+                            <p class="components-content-ul-div-p">Children's</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Action & Adventure</a></li>
+                                    <li><a>Activity Books</a></li>
+                                    <li><a>Animals</a></li>
+                                    <li><a>Cars & Trucks</a></li>
+                                    <li><a>Classics</a></li>
+                                    <li><a>Comedy</a></li>
+                                    <li><a>Cookbooks</a></li>
+                                    <li><a>Education & Reference</a></li>
+                                    <li><a>Fairy Tales</a></li>
+                                    <li><a>Geography & Cultures</a></li>
+                                    <li><a>Growing up</a></li>
+                                    <li><a>History</a></li>
+                                    <li><a>Mystery & Suspense</a></li>
+                                    <li><a>Sci-Fi & Fantasy</a></li>
+                                    <li><a>Science & Nature</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Coobooks</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div cookbooks-image">
+                            <p class="components-content-ul-div-p">Coobooks</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Asian</a></li>
+                                    <li><a>Baking</a></li>
+                                    <li><a>Celebrity Cookbooks</a></li>
+                                    <li><a>Culinary Arts</a></li>
+                                    <li><a>Desserts</a></li>
+                                    <li><a>Diet & Weight Loss</a></li>
+                                    <li><a>French</a></li>
+                                    <li><a>Holiday</a></li>
+                                    <li><a>Italian</a></li>
+                                    <li><a>Nutrition</a></li>
+                                    <li><a>Preserving</a></li>
+                                    <li><a>Southern</a></li>
+                                    <li><a>Special Diets</a></li>
+                                    <li><a>Vegetarian</a></li>
+                                    <li><a>Wine & Spirits</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Health & Fitness</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div health-image">
+                            <p class="components-content-ul-div-p">Health & Fitness</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Allergies</a></li>
+                                    <li><a>Alternative Medicine</a></li>
+                                    <li><a>Diabetic & Sugar</a></li>
+                                    <li><a>Diet & Nutrition</a></li>
+                                    <li><a>Disease & Physical</a></li>
+                                    <li><a>Drinks & Beverages</a></li>
+                                    <li><a>Education & References</a></li>
+                                    <li><a>Low Carb</a></li>
+                                    <li><a>Low Fat</a></li>
+                                    <li><a>Medical Books</a></li>
+                                    <li><a>Natural Foods</a></li>
+                                    <li><a>Parenting</a></li>
+                                    <li><a>Special Diet</a></li>
+                                    <li><a>Vegetables & Vegetarians</a></li>
+                                    <li><a>Weight loss</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Literature & Fasion</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div literarure-image">
+                            <p class="components-content-ul-div-p">Literature & Fasion</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>African</a></li>
+                                    <li><a>Ancient</a></li>
+                                    <li><a>Asian</a></li>
+                                    <li><a>Black History</a></li>
+                                    <li><a>Canadian</a></li>
+                                    <li><a>Carribean</a></li>
+                                    <li><a>European</a></li>
+                                    <li><a>Exploration</a></li>
+                                    <li><a>Latin America</a></li>
+                                    <li><a>Medieval</a></li>
+                                    <li><a>Modern</a></li>
+                                    <li><a>Native American</a></li>
+                                    <li><a>Religious</a></li>
+                                    <li><a>Renaissance</a></li>
+                                    <li><a>Russian</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Mystery & Suspense</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div mystery-image">
+                            <p class="components-content-ul-div-p">Mystery & Suspense</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Anthologies</a></li>
+                                    <li><a>Classics</a></li>
+                                    <li><a>Contemporary</a></li>
+                                    <li><a>Foreign Language</a></li>
+                                    <li><a>Genre Fiction</a></li>
+                                    <li><a>History & Criticism</a></li>
+                                    <li><a>Poetty</a></li>
+                                    <li><a>World Literature</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Religion & Spirituality</a><i
+                            class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div religion-image">
+                            <p class="components-content-ul-div-p">Religion & Spirituality</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Conspiracy</a></li>
+                                    <li><a>Crime</a></li>
+                                    <li><a>Detective</a></li>
+                                    <li><a>Mysteries</a></li>
+                                    <li><a>Spy</a></li>
+                                    <li><a>Suspense</a></li>
+                                    <li><a>Thrillers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Romance</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div romance-image">
+                            <p class="components-content-ul-div-p">Romance</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Agnosticism</a></li>
+                                    <li><a>Astrology</a></li>
+                                    <li><a>Athleism</a></li>
+                                    <li><a>Buddism</a></li>
+                                    <li><a>Cristian</a></li>
+                                    <li><a>Cristian Living</a>>
+                                    <li><a>Comparative Religion</a>>
+                                    <li><a>Earth-Based Religions</a>>
+                                    <li><a>Hinduism</a></li>
+                                    <li><a>History of Religion</a>>
+                                    <li><a>Inspiration</a></li>
+                                    <li><a>Islam</a></li>
+                                    <li><a>Judaism</a></li>
+                                    <li><a>New Age</a>>
+                                    <li><a>Accult</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Sci-Fi & Fantasy</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div sci-fi-image">
+                            <p class="components-content-ul-div-p">Sci-Fi & Fantasy</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Anthologies</a>>
+                                    <li><a>Contemporary</a>>
+                                    <li><a>Erotica</a>>
+                                    <li><a>Fantasy</a>>
+                                    <li><a>Gothic</a>>
+                                    <li><a>Historical</a>>
+                                    <li><a>Holidays</a>>
+                                    <li><a>Military</a>>
+                                    <li><a>Multicultural</a>>
+                                    <li><a>Mystery</a>>
+                                    <li><a>Regency</a>>
+                                    <li><a>Romantic Comedy</a>>
+                                    <li><a>Sci-Fi</a>>
+                                    <li><a>Sports</a>>
+                                    <li><a>Suspense</a>>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Self-Help</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div self-help-image">
+                            <p class="components-content-ul-div-p">Self-Help</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Anthologies</a></li>
+                                    <li><a>Epics</a></li>
+                                    <li><a>Fantasy</a></li>
+                                    <li><a>Graphic Novels</a></li>
+                                    <li><a>Historical Sci-Fi</a></li>
+                                    <li><a>Horror</a></li>
+                                    <li><a>Role Playing</a></li>
+                                    <li><a>Romance</a></li>
+                                    <li><a>Sci-Fi</a></li>
+                                    <li><a>Superhero</a></li>
+                                    <li><a>Star Wars</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Textbooks</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div textbook-image">
+                            <p class="components-content-ul-div-p">Textbooks</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Abuse</a></li>
+                                    <li><a>Addictions</a></li>
+                                    <li><a>Anger Managment</a></li>
+                                    <li><a>Anxieties & Phobies</a></li>
+                                    <li><a>Creativity</a></li>
+                                    <li><a>Death & Grief</a></li>
+                                    <li><a>Depression</a></li>
+                                    <li><a>Dreams</a></li>
+                                    <li><a>Eating Disorders</a></li>
+                                    <li><a>Happiness</a></li>
+                                    <li><a>Hypnosis</a></li>
+                                    <li><a>Inner Child</a></li>
+                                    <li><a>Meditation</a></li>
+                                    <li><a>Memory</a></li>
+                                    <li><a>Mid-Life</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">Young Adult</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div young-image">
+                            <p class="components-content-ul-div-p">Young Adult</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Busoness & Finance</a></li>
+                                    <li><a>Business & investing</a></li>
+                                    <li><a>Computer Science</a></li>
+                                    <li><a>Computers & Technologies</a></li>
+                                    <li><a>Education</a></li>
+                                    <li><a>Foreign Languages</a></li>
+                                    <li><a>History</a></li>
+                                    <li><a>Humanities</a></li>
+                                    <li><a>Instruction methods</a></li>
+                                    <li><a>Law</a></li>
+                                    <li><a>Literature & Fiction</a></li>
+                                    <li><a>Mathematics</a></li>
+                                    <li><a>Medical Books</a></li>
+                                    <li><a>Midicine & Health</a></li>
+                                    <li><a>Politics</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="components-content-ul-a">See all Categories</a><i class="fa fa-chevron-right"></i>
+                        <div class="components-content-ul-div all-image">
+                            <p class="components-content-ul-div-p">See all Categories</p>
+                            <div class="inner-div">
+                                <p class="inner-div-p">Sub-Categories</p>
+                                <ul type="none">
+                                    <li><a>Arts and Music</a></li>
+                                    <li><a>Biography</a></li>
+                                    <li><a>Bussiness & Investing</a></li>
+                                    <li><a>Children's</a></li>
+                                    <li><a>Comic & Graphic Novels</a></li>
+                                    <li><a>Computers & Technologi</a></li>
+                                    <li><a>Cooking</a></li>
+                                    <li><a>Hobbies & Crafts</a></li>
+                                    <li><a>Education & Reference</a></li>
+                                    <li><a>Gay & Fitness</a></li>
+                                    <li><a>History</a></li>
+                                    <li><a>Home & Garden</a></li>
+                                    <li><a>Horror</a></li>
+                                    <li><a>Humor & Entertainment</a></li>
+                                    <li><a>Literature & Fiction</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="slider-header-components">
+            <a>Kid's</a>
+            <div class="components-content-other">
+                <ul class="components-content-ul" type="none">
+                    <li><a class="components-content-ul-a">Action & Adventure</a></li>
+                    <li><a class="components-content-ul-a">Activities, Crafts & Games</a></li>
+                    <li><a class="components-content-ul-a">Activity Books</a></li>
+                    <li><a class="components-content-ul-a">Animals</a></li>
+                    <li><a class="components-content-ul-a">Cars & Trains</a></li>
+                    <li><a class="components-content-ul-a">Classics</a></li>
+                    <li><a class="components-content-ul-a">Fairy Tales</a></li>
+                    <li><a class="components-content-ul-a">Family Life</a></li>
+                    <li><a class="components-content-ul-a">Growing Up</a></li>
+                    <li><a class="components-content-ul-a">Humor</a></li>
+                    <li><a class="components-content-ul-a">Mystery</a></li>
+                    <li><a class="components-content-ul-a">Older Children's Books</a></li>
+                    <li><a class="components-content-ul-a">Sci-Fi</a></li>
+                    <li><a class="components-content-ul-a">Science</a></li>
+                    <li><a class="components-content-ul-a">Younger Children's Books</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="slider-header-components">
+            <a>Young Adult</a>
+            <div class="components-content-other">
+                <ul class="components-content-ul" type="none">
+                    <li><a class="components-content-ul-a">Fantasy</a></li>
+                    <li><a class="components-content-ul-a">Fiction</a></li>
+                    <li><a class="components-content-ul-a">Historical Fiction</a></li>
+                    <li><a class="components-content-ul-a">Hobbies</a></li>
+                    <li><a class="components-content-ul-a">Horror</a></li>
+                    <li><a class="components-content-ul-a">Mystery & Thriller</a></li>
+                    <li><a class="components-content-ul-a">Romance</a></li>
+                    <li><a class="components-content-ul-a">Sci-Fi</a></li>
+                    <li><a class="components-content-ul-a">Social Issues</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="slider-header-components">
+            <a>Fiction</a>
+            <div class="components-content-other">
+                <ul class="components-content-ul" type="none">
+                    <li><a class="components-content-ul-a">Anthologies</a></li>
+                    <li><a class="components-content-ul-a">Classics</a></li>
+                    <li><a class="components-content-ul-a">Contemporary</a></li>
+                    <li><a class="components-content-ul-a">Foreign Languages</a></li>
+                    <li><a class="components-content-ul-a">Genre Fiction</a></li>
+                    <li><a class="components-content-ul-a">History & Criticism</a></li>
+                    <li><a class="components-content-ul-a">Poetry</a></li>
+                    <li><a class="components-content-ul-a">World Literature</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="slider-header-components">
+            <a>Rare & Collectible</a>
+        </li>
+        <li class="slider-header-components">
+            <a>Offers</a>
+            <div class="components-content-other">
+                <ul class="components-content-ul" type="none">
+                    <li><a class="components-content-ul-a">ThriftDeals</a></li>
+                    <li><a class="components-content-ul-a">ReadingRewards</a></li>
+                    <li><a class="components-content-ul-a">Tell-A-Friend</a></li>
+                    <li><a class="components-content-ul-a">Gift Cards</a></li>
+                    <li><a class="components-content-ul-a">Teacher Discount</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="slider-header-components">
+            <a>Get Our App</a>
+        </li>
+        <li class="slider-header-components">
+            <a>Blog</a>
+        </li>
+        <li class="login"><a href="login.html">Login</a></li>
+    </ul>
+</div>
+<ul id="accordion" class="accordion">
+    <li>
+        <div class="link">All Categories<i class="fa fa-chevron-down"></i></div>
+        <ul class="submenu">
+            <li><a>Biographies</a></li>
+            <li><a>Business</a></li>
+            <li><a>Children's</a></li>
+            <li><a>Coobooks</a></li>
+            <li><a>Health & Fitness</a></li>
+            <li><a>Literature & Fasion</a></li>
+            <li><a>Mystery & Suspense</a></li>
+            <li><a>Religion & Spirituality</a></li>
+            <li><a>Romance</a></li>
+            <li><a>Sci-Fi & Fantasy</a></li>
+            <li><a>Self-Help</a></li>
+            <li><a>Textbooks</a></li>
+            <li><a>Young Adult</a></li>
+            <li><a>See all Categories</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link">Kid's<i class="fa fa-chevron-down"></i></div>
+        <ul class="submenu">
+            <li><a>Action & Adventure</a></li>
+            <li><a>Activities, Crafts & Games</a></li>
+            <li><a>Activity Books</a></li>
+            <li><a>Animals</a></li>
+            <li><a>Cars & Trains</a></li>
+            <li><a>Classics</a></li>
+            <li><a>Fairy Tales</a></li>
+            <li><a>Family Life</a></li>
+            <li><a>Growing Up</a></li>
+            <li><a>Humor</a></li>
+            <li><a>Mystery</a></li>
+            <li><a>Older Children's Books</a></li>
+            <li><a>Sci-Fi</a></li>
+            <li><a>Science</a></li>
+            <li><a>Younger Children's Books</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link">Young Adult<i class="fa fa-chevron-down"></i></div>
+        <ul class="submenu">
+            <li><a>Fantasy</a></li>
+            <li><a>Fiction</a></li>
+            <li><a>Historical Fiction</a></li>
+            <li><a>Hobbies</a></li>
+            <li><a>Horror</a></li>
+            <li><a>Mystery & Thriller</a></li>
+            <li><a>Romance</a></li>
+            <li><a>Sci-Fi</a></li>
+            <li><a>Social Issues</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link">Fiction<i class="fa fa-chevron-down"></i></div>
+        <ul class="submenu">
+            <li><a>Anthologies</a></li>
+            <li><a>Classics</a></li>
+            <li><a>Contemporary</a></li>
+            <li><a>Foreign Languages</a></li>
+            <li><a>Genre Fiction</a></li>
+            <li><a>History & Criticism</a></li>
+            <li><a>Poetry</a></li>
+            <li><a>World Literature</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link">Rare & Collectible</div>
+
+    </li>
+    <li>
+        <div class="link">Offers<i class="fa fa-chevron-down"></i></div>
+        <ul class="submenu">
+            <li><a>ThriftDeals</a></li>
+            <li><a>ReadingRewards</a></li>
+            <li><a>Tell-A-Friend</a></li>
+            <li><a>Gift Cards</a></li>
+            <li><a>Teacher Discount</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link">Get Our App</div>
+    </li>
+    <li>
+        <div class="link">Blog</div>
+    </li>
+    <a href="login.html"><li>
+        <div class="link">Login</div>
+    </li></a>
+</ul>
+<hr class="second-hr">
+<div class="read-rew">
+    <h1 style="text-align: center" class="read-rew-h1">Reading <span>Rewards</span></h1>
+    <hr class="second-hr-1">
+    <div class="welcome-div">
+        <h3>Welcome to IT Book Store's customer loyalty program!</h3>
+    </div>
+    <div class="coupon-div">
+        <i class="fa fa-user-plus" aria-hidden="true"></i>
+        <h4>SIGN UP FOR FREE</h4>
+        <p>Click the "Join Now" button below and start earning rewards right away.</p>
+    </div>
+    <div class="coupon-div">
+        <i class="fa fa-picture-o" aria-hidden="true"></i>
+        <h4>EARN COUPONS</h4>
+        <p>Every time you reach $50 in book purchases we will send you a $5 coupon.</p>
+    </div>
+    <div class="coupon-div">
+        <i class="fa fa-tags" aria-hidden="true"></i>
+        <h4>EVEN MORE BENEFITS</h4>
+        <p>Increased discounts for referring a friend and other savings. See Bonus Savings below.</p>
+    </div>
+    <div style="clear: left"></div>
+    <a href="login.html"><button class="button">Join now</button></a>
+    <h4>DETAILS</h4>
+    <p>Receive a coupon for $5.00 every time you spend $50.00 (shipping not included)</p>
+    <ul>
+        <li>You must sign up for a Thriftbooks.com account</li>
+        <li>The coupon will be emailed to the address on the account</li>
+        <li>The coupon can be applied for future orders of $15 or more</li>
+        <li>Enter the code at checkout and click the "Apply" button</li>
+        <li>See <a>Terms and Conditions</a> for full details and restrictions</li>
+    </ul>
+    <h4>BONUS SAVINGS</h4>
+
+    <p>ReadingRewards members who use our Tell-A-Friend program get a 20% off coupon for qualifying referrals (15% for
+        non-members).</p>
+
+    <p>For their birthdays, ReadingRewards members receive a 20% off coupon (15% off for non-members).</p>
+
+    <p><a class="color-a" id="show" onclick="show()">Show Terms & Conditions</a></p>
+
+    <div class="terms" id="terms"><p>THRIFT BOOKS© BOOK BONUS PROGRAM</p>
+
+        <p>TERMS & CONDITIONS</p>
+
+        <p>Effective Date: May 11, 2015</p>
+
+        <p>Introduction</p>
+
+        <p align="justify">We want you to read more and spend less. The Thrift Books® Reading Rewards Program has been introduced to
+            provide
+            registered members of Thriftbooks.com with special reward, discount and promotional offers. These Terms &
+            Conditions
+            (“T&Cs”) constitute a legally binding agreement governing your participation in the Thrift Books® Reading
+            Rewards.
+            By participating in the Thrift Books® Reading Rewards, you indicate your unconditional agreement to the
+            terms set
+            forth in the T&Cs, and the terms set forth in the Conditions of Use and the Privacy Policy, both of which
+            are
+            incorporated into the T&Cs, and as each may be modified by Thrift Books, LLC. Please read each of these
+            documents
+            carefully before participating in the Thrift Books® Reading Rewards program. This program is not targeted
+            towards,
+            nor intended for use by, anyone under the age of 13. If you are between the ages of 13 and 18, you may only
+            participate in the Thrift Books® Reading Rewards Program under the supervision of a parent or legal guardian
+            who
+            agrees to be bound by these T&Cs. This program is for the benefit of individual readers for their own
+            reading
+            pleasure and it is not intended to benefit the large order buyer/reseller.</p>
+
+        <p>Eligibility for & Conditions of the Program</p>
+
+        <p align="justify">The Program is operated by Thrift Books, LLC and its affiliates (collectively referred to as “Thrift Books”,
+            “we”,
+            “us” or “our”) in the United States. No “Guest” account orders are eligible for this program (a “Guest”
+            account
+            order is one placed by a customer who has ordered from Thriftbooks.com but not submitted their full account
+            details
+            and created a registered account. To register an account with Thriftbooks.com, visit
+            https://www.thriftbooks.com/account/login.aspx Registration with Thriftbooks.com is offered solely at the
+            discretion
+            of Thrift Books and subject to the Conditions of Use and the Privacy Policy. By participating in the
+            Program, you
+            agree to provide and maintain accurate personal information about yourself (including first name, last name,
+            e-mail
+            address and zip code) and submit accurate and valid billing and shipping information. You are responsible
+            for
+            ensuring the accuracy of all information submitted in relation to your registered account.</p>
+
+        <p align="justify">Companies, associations, or other groups also may not participate in the Program. Membership in and the
+            benefits of
+            the Program are offered at the sole and exclusive discretion of Thrift Books. Thrift Books may, at any time,
+            terminate, change, limit, modify or cancel the Program or any rules, regulations, benefits or conditions of
+            participation by posting the modified rules on this page.</p>
+
+        <p align="justify">By participating in the Program, you affirmatively consent to (i) receiving emails from us at the email
+            address
+            associated with your registered account (provided, however, that you may later withdraw your consent to
+            receive
+            commercial emails by following email opt-out procedures in our Privacy Policy), (ii) our requesting (with
+            the
+            understanding that you may refuse our request), recording, using and keeping, for as long as we deem
+            necessary,
+            information about you (including, but not limited to, your name, mailing address, zip code, telephone
+            number,
+            credit, debit or payment account information and email address) as such information is required, or deemed
+            necessary
+            by us, for the purposes of fulfilling your requests that we service your registered account (including, but
+            not
+            limited to, your requests that we establish your account, look up or edit your account information, or
+            associate a
+            purchase with your account), (iii) our requesting that you present Program or account information when you
+            purchase
+            goods at Thriftbooks.com so that you may receive Program benefits, and (iv) our compiling information about
+            items
+            you purchased from us, when purchases and returns were made, your method of payment, or if you open,
+            access
+            hyperlinks in or respond to emails from us.</p>
+
+        <p>Features of the Program</p>
+
+        <p align="justify">By participating in the Program, you will be eligible to receive the following benefits: (i) coupons,
+            promotions and
+            offers that we extend to Program participants and (ii) advance notification of certain advertisements and
+            select
+            coupons, promotions and offers (collectively, the "Program benefits"). We reserve the right to offer
+            non-transferable, targeted Program benefits to select Program participants based upon purchase history or to
+            encourage Program participation. Your use of Program benefits may be subject to additional terms and
+            conditions and
+            limitations and exclusions may apply. Program benefits may be used only at Thriftbooks.com and may be used
+            only by
+            you, the person to whom the account is registered. Your account must be in good standing to redeem Program
+            benefits.
+            You may be required to input promotional codes in order to collect certain Program benefits and we may
+            refuse to
+            honor such Program benefits if you do not do so. Unless otherwise noted in writing, coupons, promotions and
+            offers
+            cannot be used with any other discounts. If a purchase is removed from your registered account as a result
+            of you
+            returning a previously purchased item or for any other reason, you may no longer qualify for Program
+            benefits that
+            had previously been offered to you.</p>
+
+        <p align="justify">If, at the time you make a purchase, your purchase is not associated with your registered account for any
+            reason, it
+            is your responsibility to have the purchase associated with your registered account within 30 days of the
+            purchase
+            date. Any purchase not associated with your registered account within 30 days of the date of purchase will
+            expire
+            and will not be available to associate with your registered account. If you return any item, that portion of
+            the
+            purchase will no longer be credited to your registered account. We reserve the right to require proof of any
+            purchase, including, but not limited to, an original e-mail receipt, in order to associate a purchase with
+            your
+            registered account. Purchases that are determined to be invalid for any reason are subject to
+            disqualification and
+            will no longer be credited to your registered account.</p>
+
+        <p align="justify">Promotional codes, coupons or discounts cannot be combined. For coupons and discount promotions with minimum
+            purchase requirements, only the purchase price of qualifying items is included in calculating the minimum
+            purchase
+            level. Tax and shipping charges are not included in calculating the minimum purchase level. Coupons are not
+            valid if
+            purchased or sold and must be surrendered and have no cash/credit back features.</p>
+
+        <p>Current Program Offers</p>
+
+        <p>READING REWARDS $5 OFF COUPON FOR $50 SPENT OFFER</p>
+
+        <p>Offer Start Date: May 11, 2015</p>
+
+        <p align="justify">When Registered Members spend a total of $50.00 (including only the actual purchase price (net of any
+            discounts or
+            coupons) and excluding applicable shipping charges and taxes), Thrift Books will send you a coupon good for
+            $5.00 of
+            your next purchase. For every additional $50.00 (including only the actual purchase price (net of any
+            discounts or
+            coupons) and excluding applicable shipping charges and taxes) you spend, Thrift Books will send you another
+            coupon
+            good for $5.00 off your next purchase. The amount you spend is based on a cumulative total of the books you
+            buy
+            across future qualifying orders. Each coupon will expire 365 days after the date it is issued.</p>
+
+        <p>TELL-A-FRIEND COUPON OFFER</p>
+
+        <p>Offer Start Date: May 11, 2015</p>
+
+        <p align="justify">As a Program Member, for every friend you refer to through the “Tell-a-Friend” feature, you will receive a
+            coupon
+            for 20% off your next order once your friend makes a qualifying purchase from Thriftbooks.com.</p>
+
+        <p>BIRTHDAY COUPON BONUS</p>
+
+        <p>Offer Start Date: May 11, 2015</p>
+
+        <p align="justify">As a Program Member, on your birthday you will receive a coupon for 20% off your next order from
+            Thriftbooks.com.</p>
+
+        <p>Modifications and Termination</p>
+
+        <p align="justify">We reserve the right to modify any of the T&Cs set forth herein — including, but not limited to, the Program
+            benefits and the requirements for redeeming them — at any time, with or without notice, even though these
+            changes
+            may adversely affect your ability to receive and/or use Program benefits.</p>
+
+        <p align="justify">We reserve the right to terminate the Program at any time, for any reason, even though termination may
+            adversely
+            affect your ability to receive and/or use Program benefits. You will have the lesser of the then-remaining
+            term of
+            any Program benefit or 30 days from the date Program termination is announced to use any unexpired Program
+            benefit.</p>
+
+        <p align="justify">Your continued participation in the Program constitutes your acceptance of the T&Cs, Conditions of Use and
+            the
+            Privacy Policy and all changes made to the T&Cs, Conditions of Use and the Privacy Policy. You are
+            responsible for
+            remaining knowledgeable as to any changes that we may make to the T&Cs, Conditions of Use and the Privacy
+            Policy.
+            The most current version of the T&Cs, Conditions of Use and the Privacy Policy will be available at
+            Thriftbooks.com
+            and will supersede all previous versions of the T&Cs, Conditions of Use and the Privacy Policy.</p>
+
+        <p>General Terms and Conditions</p>
+
+        <p align="justify">We reserve the right to discontinue the participation privileges of any person who engages in any fraudulent
+            activity or uses the Program in a manner inconsistent with the T&Cs, Conditions of Use, the Privacy Policy
+            or any
+            federal, state or local laws, regulations or ordinances. Discontinued participation privileges may result in
+            the
+            loss of all Program benefits. In addition to discontinuance of participation privileges, we shall have the
+            right to
+            take appropriate administrative and/or legal action, including criminal prosecution, as we deem necessary in
+            our
+            sole discretion.</p>
+
+        <p align="justify">The Program is provided to individuals only. It is fraudulent for any individual or company to direct,
+            encourage or
+            allow individuals to use a single registered account for the purpose of accumulating Program benefits for
+            combined
+            use.</p>
+
+        <p align="justify">Program benefits do not constitute property of any individual and may be revoked by us at any time.
+            Registered
+            accounts and Program benefits may not be transferred or assigned, and are not transferable upon death, as
+            part of a
+            domestic relations matter, or otherwise by operation of law. None of the Program benefits are redeemable for
+            cash.
+            We are not responsible for the failure to make Program benefits available. We will not issue an accounting
+            of any
+            purchases.</p>
+
+        <p align="justify">If there is no activity in connection with your registered account during any consecutive 24 month period, we
+            reserve the right to terminate your Program account and we will not be obligated to provide you with Program
+            benefits after the termination date. If you re-registered an account or create a separate account, you may
+            not
+            transfer your old Program participation or benefits to your new registered account.</p>
+
+        <p align="justify">All questions or disputes regarding eligibility for the Program, earning or redeeming Program benefits,
+            interpretation of the T&Cs, Conditions of Use and the Privacy Policy, , or a participant’s compliance with
+            the T&Cs,
+            Conditions of Use and the Privacy Policy will be resolved by us in our sole and absolute discretion.</p>
+
+        <p>This Membership Agreement is effective as of the date stated above.</p>
+        <p><a class="color-a" id="hide" onclick="hide()">Hide Terms and Conditions</a></p>
+    </div>
+</div>
+<footer>
+    <div class="footer-div clearfix">
+        <div class="footer-div-center">
+            <div class="footer-div-left">
+                <h3>Popular categories</h3>
+                <p><a>Children's</a></p>
+                <p><a>Teen and Young</a></p>
+                <p><a>Self-Help</a></p>
+                <p><a>Literature & Fiction</a></p>
+                <p><a>Mystery & Thriller</a></p>
+                <p><a>Sci-fi & Fantasy</a></p>
+                <p><a>Romance</a></p>
+                <p><a>Large Print Books</a></p>
+                <p><a>Rare & Collectible Books</a></p>
+            </div>
+            <div class="footer-div-left">
+                <h3>Website</h3>
+                <p><a>Testimonials</a></p>
+                <p><a>Gift Cards</a></p>
+                <p><a>Blog</a></p>
+                <p><a>Tell-A-Friend</a></p>
+                <h3>My Account</h3>
+                <p><a>Settings</a></p>
+                <p><a>Shopping Cart</a></p>
+                <p><a>Order History</a></p>
+                <p><a>Wish List</a></p>
+            </div>
+            <div class="footer-div-left">
+                <h3>Information</h3>
+                <p><a>Shipping Costs</a></p>
+                <p><a>About IT Book Store</a></p>
+                <p><a>In The Press</a></p>
+                <h3>Partnership</h3>
+                <p><a>Buy From Us</a></p>
+                <p><a>Become an Affiliate</a></p>
+                <p><a>Are You a Library?</a></p>
+            </div>
+            <div class="footer-div-left">
+                <h3>Quick Help</h3>
+                <p><a>Help & Support</a></p>
+                <p><a>Billing</a></p>
+                <p><a>Return Policy</a></p>
+                <p><a>Contact Us</a></p>
+                <p><a>Careers</a></p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footer-p"><p>IT Book Store sells millions of used books at the lowest everyday prices. We personally assess every
+                book's
+                quality and offer rare, out-of-print treasures. We deliver the joy of reading in 100% recycled packaging
+                with free standard shipping on U.S. orders over $10. IT Book Store.com – Read More. Save More.</p></div>
+        </div>
+        <div class="footer-right-div">
+            <h3>Special Offers</h3>
+            <p>Sign up today to receive exclusive offers, special deals and coupons.</p>
+            <div class="div-input-email"><input class="email-input" type="text" placeholder="Email address"/>
+                <button class="email-button">Sign Up</button>
+            </div>
+            <a class="weResp">We respect your privacy</a>
+            <h3>Follow Us</h3>
+            <a><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+            <a><i class="fa fa-tumblr-square" aria-hidden="true"></i></a>
+            <a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <div class="gift-card">
+                <br>
+                <p class="gift-card-first-p">We have</p>
+                <h3>GIFT CARDS</h3>
+                <p>Share the love...of books</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copirate-div clearfix">
+        <div class="copirate">
+            <p>Copyright © 2017 Denis Monich Terms of Use | Privacy Policy </p>
+            <p>IT Book Store® and the IT Book Store® logo are registered trademarks of Denis Monich Corparation</p>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
