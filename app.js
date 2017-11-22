@@ -22,7 +22,7 @@ app.post('/form', function(req, res){
 });
 
 app.get('/', function(req, res){
-  res.sendFile(`${rootFolder}/Index.html`);
+  res.sendFile(`${rootFolder}/home.html`);
 });
 
 app.get('*', function (req, res) {
